@@ -2,7 +2,7 @@
   if ($handle = opendir('/var/www/Craft-Batch/download/')) {
     while (false !== ($file = readdir($handle))) {
       if ($file != "." && $file != "..") {
-        $thelist .= '<li><a href="download/'.$file.'">'.$file.'</a></li>
+        $thelist .= '<a href="download/'.$file.'">'.$file.'</a><br>
                     ';
       }
     }
@@ -59,13 +59,22 @@
 								<h2 class="major">Download!</h2>
 								<p>How To Download:<br>
                     Please click what you would like to download.</p>
-                    <?php echo $thelist; ?>
+                    <table>
+                        <tr>
+                          <th>Local Copy</th>
+                          <th>GitHub Copy</th>
+                        </tr>
+                        <tr>
+                            <th><?php echo $thelist; ?>Coming Soon!</th>
+                            <th>Coming Soon!</th>
+                        </tr>
+                    </table>
 							</article>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Copyright 2018. All Rights Reserved. GFALaunchCraft
 					</footer>
 
 			</div>
