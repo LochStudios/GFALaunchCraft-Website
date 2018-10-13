@@ -62,7 +62,7 @@
                     <table>
                         <tr>
                           <th>Local Copy</th>
-                          <th><a href="https://github.com/LochStudios/GFALaunchCraft-Website">GitHub</a> Copy</th>
+                          <th><a href="https://github.com/LochStudios/GFALaunchCraft/releases">GitHub</a> Copy</th>
                         </tr>
                         <tr>
                             <th><?php echo $thelist; ?>Coming Soon!</th>
