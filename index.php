@@ -11,12 +11,12 @@
 ?>
 <html>
 	<head>
-		<title>GFALaunchCraft</title>
+		<title>LaunchCraft</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="../images/GFALaunchCraft.png" type="image/x-icon"/>
-    <link rel="shortcut icon" href="../images/GFALaunchCraft.png" type="image/x-icon"/>
+		<link rel="icon" href="../images/LaunchCraft.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../images/LaunchCraft.png" type="image/x-icon"/>
 		<link rel="stylesheet" href="../assets/css/main.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
@@ -31,7 +31,7 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>GFALaunchCraft</h1>
+								<h1>LaunchCraft</h1>
 								<p>A fully customised minecraft game launcher that auto backups.<br></p>
 							</div>
 						</div>
@@ -74,7 +74,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Copyright 2018. All Rights Reserved. GFALaunchCraft
+						<p class="copyright">&copy; Copyright 2018. All Rights Reserved. LaunchCraft
 					</footer>
 
 			</div>
