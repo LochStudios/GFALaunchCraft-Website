@@ -1,8 +1,8 @@
 <?php
-  if ($handle = opendir('/var/www/Craft-Batch/download/')) {
+  if ($handle = opendir('/var/www/html/download')) {
     while (false !== ($file = readdir($handle))) {
       if ($file != "." && $file != "..") {
-        $thelist .= '<a href="download/'.$file.'">'.$file.'</a><br>
+        $thelist .= '<a href="../download/'.$file.'">'.$file.'</a><br>
                     ';
       }
     }
@@ -65,8 +65,8 @@
                           <th><a href="https://github.com/LochStudios/GFALaunchCraft/releases">GitHub</a> Copy</th>
                         </tr>
                         <tr>
-                            <th><?php echo $thelist; ?>Coming Soon!</th>
-                            <th>Coming Soon!</th>
+                            <th><?php echo $thelist; ?></th>
+                            <th><a href="https://github.com/LochStudios/LaunchCraft/releases/download/A01/LaunchCraft-A01.exe">LaunchCraft-A01.exe</a></th>
                         </tr>
                     </table>
 							</article>
