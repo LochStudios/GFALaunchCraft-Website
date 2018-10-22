@@ -66,7 +66,8 @@
                         </tr>
                         <tr>
                             <th><?php echo $thelist; ?></th>
-                            <th><a href="https://github.com/LochStudios/LaunchCraft/releases/download/Alpha/LaunchCraft-A01.exe">LaunchCraft-A01.exe</a></th>
+							<!-- <a href="https://github.com/LochStudios/LaunchCraft/releases/download/Alpha/LaunchCraft-A01.exe">LaunchCraft-A01.exe</a>-->
+                            <th>GitHub Is Having some probles, please use the local link.</th>
                         </tr>
                     </table>
 							</article>
