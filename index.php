@@ -1,5 +1,5 @@
 <?php
-  if ($handle = opendir('/var/www/html/download')) {
+  if ($handle = opendir('/home2/thelaunc/public_html/download')) {
     while (false !== ($file = readdir($handle))) {
       if ($file != "." && $file != "..") {
         $thelist .= '<a href="download/'.$file.'">'.$file.'</a><br>
@@ -62,12 +62,11 @@
                     <table>
                         <tr>
                           <th>Local Copy</th>
-                          <th><a href="https://github.com/LochStudios/GFALaunchCraft/">GitHub</a> Copy</th>
+                          <th><a href="https://github.com/TheLaunchCraft/LaunchCraft">GitHub</a> Copy</th>
                         </tr>
                         <tr>
                             <th><?php echo $thelist; ?></th>
-							<!-- <a href="https://github.com/LochStudios/LaunchCraft/releases/download/Alpha/LaunchCraft-A01.exe">LaunchCraft-A01.exe</a>-->
-                            <th>GitHub Is Having some probles, please use the local link.</th>
+							<th><a href="https://github.com/TheLaunchCraft/LaunchCraft/releases/download/Alpha/LaunchCraft-A01.exe">LaunchCraft-A01.exe</a></th>
                         </tr>
                     </table>
 							</article>
