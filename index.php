@@ -52,6 +52,7 @@
                   If you have paid for off site backups, your data will be uploaded to one of our super fast backup servers.</p>
                     <!-- https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WLTMQBJNXDNG8 -->
                       <center><button stly="button" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WLTMQBJNXDNG8'">Buy Off Site Backups</button></center>
+					  <br><center><button stly="button" onclick="location.href='https://wiki.thelaunchcraft.net.au'">Visit The Wiki</button></center>
 							</article>
             
             <!-- Download -->
